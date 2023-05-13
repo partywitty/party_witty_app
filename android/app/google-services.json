@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "247185976738",
+    "project_id": "party-witty-f8f0d",
+    "storage_bucket": "party-witty-f8f0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247185976738:android:fbe8bcdda9cb9af0cc56fb",
+        "android_client_info": {
+          "package_name": "com.partywitty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247185976738-1jevrallqdn8r115lf99c4dkh86n1m0f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.partywitty",
+            "certificate_hash": "1ad2204071c00aa1888786c619e76208697928b4"
+          }
+        },
+        {
+          "client_id": "247185976738-b92h2gn9f58sadloafuk9v2m9km9n01r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCisB_je35qTBzqvYy_wTENAIApdGPSq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247185976738-b92h2gn9f58sadloafuk9v2m9km9n01r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

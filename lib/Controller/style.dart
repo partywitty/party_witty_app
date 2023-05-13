@@ -1,0 +1,48 @@
+import 'package:flutter/material.dart';
+
+const appColor = Color(0xFFFD2C5A);
+const greenButton = Color(0xFF039E25);
+const redButton = Color(0xFFB1282E);
+const drawerColor = Color(0xFF190C39);
+const artistDrawerColor = Color(0xFF450E10);
+const footerColor = Color(0xFF880899);
+const mColor = Color(0xFF43004D);
+const cardColor = Color(0xFF434445);
+const appBarColor = Color(0xFF525252);
+const gridColor = Color(0xFF880899);
+const cardButtonColor = Color(0xFF008AD8);
+const exitColor = Color(0xFFB9003B);
+
+
+const appBarText = TextStyle(color:Colors.white ,fontSize: 18,fontWeight: FontWeight.w500);
+const appTitle = TextStyle(color:Colors.white ,fontSize: 18,fontWeight: FontWeight.w500);
+const gender = TextStyle(color:Colors.white ,fontSize: 15);
+const code = TextStyle(color:Colors.white ,fontSize: 22 ,fontWeight: FontWeight.normal);
+const art = TextStyle(color:Color(0xffFD2F71) ,fontSize: 16 ,fontWeight: FontWeight.bold);
+const gitarist = TextStyle(color:Colors.white ,fontSize: 9);
+const timeText = TextStyle(color: Colors.white70, fontSize: 10);
+const likes = TextStyle(color:Colors.white ,fontSize: 10);
+const drawerSubtitle = TextStyle(color:Colors.white ,fontSize: 14,fontWeight: FontWeight.normal);
+const drawerTitle = TextStyle(color:Colors.white ,fontSize: 18);
+const profileTitle = TextStyle(fontWeight: FontWeight.w500,color:Colors.white ,fontSize: 16,decoration: TextDecoration.underline,decorationColor: Colors.white,);
+const textLabel = TextStyle(color:Colors.white ,fontSize: 15,fontWeight: FontWeight.w400);
+const textHint = TextStyle(color:Colors.white ,fontSize: 12,fontWeight: FontWeight.w300);
+const textFill = TextStyle(color:Colors.white ,fontSize: 13,fontWeight: FontWeight.w500);
+const buttonText = TextStyle(fontWeight: FontWeight.w600, fontSize: 14, color: Colors.white);
+const cardTitle = TextStyle(fontWeight: FontWeight.w300, fontSize: 14, color: Colors.white);
+const cardSubTitle = TextStyle(fontWeight: FontWeight.w300, fontSize: 12, color: Colors.white);
+const signUpTitle = TextStyle( fontWeight: FontWeight.w500,fontSize: 16,color: Colors.white,);
+const dropTitle = TextStyle( fontWeight: FontWeight.w500,fontSize: 16,color: Colors.black,);
+const popupTitle = TextStyle(fontWeight: FontWeight.w500,fontSize: 16,color: Colors.black);
+const timeBlack = TextStyle(fontWeight: FontWeight.w300,fontSize: 16,color: Colors.black);
+const headingTitle = TextStyle(fontWeight: FontWeight.w400,fontSize: 22,color: Colors.white);
+const mono = TextStyle(fontWeight: FontWeight.normal,fontSize: 24,color: Colors.white);
+const rowButton = TextStyle(color:Color(0xffFD2F71) ,fontSize: 16 ,fontWeight: FontWeight.normal);
+const bigTitle = TextStyle(color:Colors.white ,fontSize: 18 ,fontWeight: FontWeight.normal);
+const extraBold = TextStyle(color:Colors.white ,fontSize: 22 ,fontWeight: FontWeight.normal);
+const blackSubTitle = TextStyle(color:Colors.black ,fontSize: 12 ,fontWeight: FontWeight.normal);
+const grayText = TextStyle(color:Colors.grey ,fontSize: 12 ,fontWeight: FontWeight.w400);
+const greenText = TextStyle(color: greenButton ,fontSize: 12 ,fontWeight: FontWeight.w400);
+const blueText = TextStyle(color: cardButtonColor ,fontSize: 12 ,fontWeight: FontWeight.w400);
+const bannerTitle = TextStyle(fontWeight: FontWeight.w400, fontSize: 16, color: Colors.white);
+const boldText = TextStyle(fontWeight: FontWeight.bold, fontSize: 20, color: Colors.white);
