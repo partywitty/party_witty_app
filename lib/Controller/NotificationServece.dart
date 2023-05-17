@@ -53,7 +53,6 @@ class LocalNoti {
         //         book_id: bodyMap['booking_id'].toString());
         //   }));
         // }
-
       },
     );
   }

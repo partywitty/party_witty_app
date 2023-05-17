@@ -6,6 +6,7 @@ import 'package:get/get.dart';
 import 'package:otp_text_field/otp_text_field.dart';
 import '../ArtistScreen/Artist_list.dart';
 import '../ArtistScreen/ComingSoon.dart';
+import '../ArtistScreen/artistHome.dart';
 import '../ArtistScreen/artist_request.dart';
 import '../ArtistScreen/requestEvent.dart';
 import '../CalanderScreen/calanderMain.dart';
@@ -129,7 +130,7 @@ class _bottomSheetState extends State<bottomSheet> {
   // //  calenderScreen(),
   // ];
   final List<Widget> screens = [
-    DataManager.getInstance().getUserType() == "Artist" ? const calenderScreen() : const ClubHomePage(),
+    DataManager.getInstance().getUserType() == "Artist" ? const artistHomeScreen() : const ClubHomePage(),
     DataManager.getInstance().getUserType() == "Artist" ? const Artist_request() :  const numberOfBooking(),
     //const ShowDetails(),
     // const ClubHomePage(),
@@ -138,7 +139,7 @@ class _bottomSheetState extends State<bottomSheet> {
   ];
 
   final PageStorageBucket bucket = PageStorageBucket();
-  Widget currentScreen  =  DataManager.getInstance().getUserType() == "Artist" ? const calenderScreen() : const ClubHomePage();
+  Widget currentScreen  =  DataManager.getInstance().getUserType() == "Artist" ? const artistHomeScreen() : const ClubHomePage();
   DateTime backPress = DateTime.now();
   @override
   Widget build(BuildContext context) {
@@ -196,7 +197,9 @@ class _bottomSheetState extends State<bottomSheet> {
                       minWidth: 40,
                       onPressed: (){
                         setState(() {
-                          currentScreen = DataManager.getInstance().getUserType() == "Artist" ? const calenderScreen() : const ClubHomePage();
+                          currentScreen = DataManager.getInstance().getUserType() == "Artist" ?
+                          const artistHomeScreen() :
+                          const ClubHomePage();
                           currentTab = 0;
                         });
                       },
